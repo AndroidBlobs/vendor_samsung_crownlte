@@ -1,0 +1,29 @@
+<mixer>
+    <case name="media_play-spk">
+        <dump dma="rd0" />
+        <dump dma="rd5" />
+        <dump dma="rd7" />
+    </case>
+    <case name="media_play-hp">
+        <dump dma="rd0" />
+        <dump dma="rd5" />
+    </case>
+    <case name="cp_call-rcv">
+        <dump dma="rd4" />
+        <dump dma="wr2" />
+    </case>
+    <case name="cp_call-spk">
+        <dump dma="rd4" />
+        <dump dma="wr2" />
+        <dump dma="rd7" />
+    </case>
+    <case name="cp_call-hp">
+        <dump dma="rd4" />
+        <dump dma="wr2" />
+    </case>
+    <case name="cp_call-bt">
+        <dump dma="rd4" />
+        <dump dma="wr2" />
+        <dump dma="rd6" />
+    </case>
+</mixer>
